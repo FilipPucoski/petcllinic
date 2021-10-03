@@ -28,7 +28,7 @@ class VetTests {
 	@Test
 	void testSerialization() {
 		Vet vet = new Vet();
-		vet.setFirstName("Filip");
+		vet.setFirstName("Filip2");
 		vet.setLastName("Beeblebrox");
 		vet.setId(123);
 		Vet other = (Vet) SerializationUtils.deserialize(SerializationUtils.serialize(vet));
